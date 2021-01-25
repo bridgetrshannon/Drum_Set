@@ -13,9 +13,9 @@ The Keyboard Drum Set allows users to play sounds from a drum set all from their
 
 ## Technologies
 
-<img float="left" alt="HTML badge" src="https://img.shields.io/badge/HTML-58%25-orange">
-<img float="left" alt="CSS badge" src="https://img.shields.io/badge/CSS-29%25-blueviolet">
-<img float="left" alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-13%25-yellow">
+<img float="left" alt="HTML badge" src="https://img.shields.io/badge/HTML-53%25-orange">
+<img float="left" alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-26%25-yellow">
+<img float="left" alt="CSS badge" src="https://img.shields.io/badge/CSS-21%25-blueviolet">
 
 - HTML
 - CSS
