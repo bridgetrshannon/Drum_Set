@@ -2,7 +2,7 @@
 window.addEventListener("keydown", function (e) {
   // searching for audio attribute, using template literal to get the data
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-  const key = document.querySelector(`.key[data-key="${e.keyCode}]`);
+  const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
 
   //   stops function from running if no corresponding key is pressed
   if (!audio) return;
@@ -13,5 +13,15 @@ window.addEventListener("keydown", function (e) {
   //   plays audio
   audio.play();
 
-  console.log(key);
+  //   adds class of playing when key is pressed
+  key.classList.add("playing");
 });
+
+function removeTransition(e) {
+  if (e.propertyName !== "transform") return;
+  this.classList.remove("playing");
+}
+
+// add event listener on all keys to end the transition
+const keys = document.querySelectorAll(".key");
+keys.forEach((key) => key.addEventListener("transitionend", removeTransition));

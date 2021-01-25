@@ -22,12 +22,18 @@ border-radius: .5rem;
 margin: 1rem;
 font-size: 1.5rem;
 padding: 1rem .5rem;
-transition: all .07s ease;
+transition: all .07s;
 width: 10rem;
 text-align: center;
 color: white;
-background: black;
+background:rbg(0,0,0,0.4);
 text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: white;
+    box-shadow: 0 0 1rem white;
 }
 
 .sound {
