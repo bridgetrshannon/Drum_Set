@@ -1,5 +1,4 @@
-// event listener for keydown
-window.addEventListener("keydown", function (e) {
+function playSound(e) {
   // searching for audio attribute, using template literal to get the data
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
   const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
@@ -15,7 +14,7 @@ window.addEventListener("keydown", function (e) {
 
   //   adds class of playing when key is pressed
   key.classList.add("playing");
-});
+}
 
 function removeTransition(e) {
   if (e.propertyName !== "transform") return;
@@ -25,3 +24,6 @@ function removeTransition(e) {
 // add event listener on all keys to end the transition
 const keys = document.querySelectorAll(".key");
 keys.forEach((key) => key.addEventListener("transitionend", removeTransition));
+
+// event listener for keydown i.e. key being pressed
+window.addEventListener("keydown", playSound);
