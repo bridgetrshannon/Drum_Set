@@ -26,7 +26,7 @@ The Keyboard Drum Set allows users to play sounds from a drum set all from their
 
 ## Usage
 
-- [Github Pages](https://bridgetrshannon.github.io/Keyboard_Drum_Set/)
+- [Deployed App](https://bridgetrshannon.github.io/Keyboard_Drum_Set/)
 - [GitHub](https://github.com/bridgetrshannon/Keyboard_Drum_Set)
 
 ```
