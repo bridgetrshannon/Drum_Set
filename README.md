@@ -4,7 +4,7 @@
 
 The Keyboard Drum Set allows users to play sounds from a drum set all from their keyboard.
 
-<!-- <img alt="randog demo gif" float="left" src="./assets/randog.gif" height="400px"> -->
+<img alt="demo gif" float="left" src="./assets/demo.gif" height="400px">
 
 ## Table of Contents
 
