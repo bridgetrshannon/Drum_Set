@@ -37,6 +37,18 @@ background:rgba(0,0,0,0.4);
 text-shadow: 0 0 .5rem black;
 }
 
+.header {
+    text-align: center;
+    color: white;
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    padding: 1rem 1rem;
+    background:rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
 .playing {
     transform: scale(1.1);
     border-color: white;

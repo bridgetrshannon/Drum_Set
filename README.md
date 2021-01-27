@@ -1,10 +1,8 @@
-# Keyboard Drum Set
+# <img alt="drum set logo" src="./assets/logo.png" height="200px">
 
 ## Description
 
-The Keyboard Drum Set allows users to play sounds from a drum set all from their keyboard.
-
-<!-- <img alt="drum set demo gif" float="left" src="./assets/demo.gif" height="400px"> -->
+The Keyboard Drum Set allows users to play sounds from a drum set by simply typing on their computer keyboard.
 
 <img alt="drum set demo gif" float="left" src="./assets/drumsetDemo.gif" height="400px">
 
